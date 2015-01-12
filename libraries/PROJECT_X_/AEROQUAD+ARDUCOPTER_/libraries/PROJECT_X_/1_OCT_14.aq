@@ -1,0 +1,101 @@
+[Rate Mode]
+Roll Proportional = "200"
+Roll Integral = "0.1"
+Roll Derivative = "0"
+Pitch Proportional = "200"
+Pitch Integral = "0.1"
+Pitch Derivative = "0"
+Rotation Speed = "1"
+
+
+[Attitude Mode]
+Roll Accel Proportional = "3"
+Roll Accel Integral = "0"
+Roll Accel Derivative = "0"
+Pitch Accel Proportional = "3"
+Pitch Accel Integral = "0"
+Pitch Accel Derivative = "0"
+Roll Gyro Proportional = "100"
+Roll Gyro Integral = "0"
+Roll Gyro Derivative = "-350"
+Pitch Gyro Proportional = "100"
+Pitch Gyro Integral = "0"
+Pitch Gyro Derivative = "-350"
+Windup Guard = "1000"
+
+[Yaw Configuration]
+Yaw Proportional = "200"
+Yaw Integral = "0"
+Yaw Derivative = "0"
+Heading Hold Proportional = "3"
+Heading Hold Integral = "0.1"
+Heading Hold Derivative = "0"
+Heading Hold Config = "1"
+
+
+[Altitude Hold]
+Altitude Proportional = "60"
+Altitude Integral = "8"
+Altitude Derivative = "0"
+Altitude Windup Guard = "25"
+Throttle Bump Value = "90"
+Throttle Panic Value = "250"
+Minimum Throttle Adjust = "-35"
+Maximum Throttle Adjust = "40"
+Altitude Smooth Factor = "0.1"
+Z Dampening Proportional = "0"
+Z Dampening Integral = "0"
+Z Dampening Derivative = "0"
+
+
+[GPS Position Hold]
+Roll Proportional = "3.5"
+Roll Integral = "0.3"
+Roll Derivative = "0"
+Pitch Proportional = "3.5"
+Pitch Integral = "0.3"
+Pitch Derivative = "0"
+Yaw Proportional = "50"
+Yaw Integral = "0"
+Yaw Derivative = "0"
+
+
+[Miscellaneous Configuration]
+Voltage Reference = "5"
+Minimum Armed Throttle = "1300"
+
+
+[Transmitter Smoothing]
+Transmitter Factor = "1"
+Roll Smoothing = "1"
+Pitch Smoothing = "1"
+Yaw Smoothing = "0.5"
+Throttle Smoothing = "1"
+Mode Smoothing = "1"
+Aux1 Smoothing = "1"
+Aux2 Smoothing = "1"
+Aux3 Smoothing = "1"
+Aux4 Smoothing = "0"
+Aux5 Smoothing = "0"
+
+
+[Battery Monitor]
+Alarm Voltage = "0"
+Throttle Target = "0"
+Going Down Time = "0"
+
+
+[Camera Stabilization]
+Mode = "0"
+Center Pitch = "0"
+Center Roll = "0"
+Center Yaw = "0"
+Scale Pitch Angle = "0"
+Scale Roll Angle = "0"
+Scale Yaw Angle = "0"
+Servo Min Pitch = "0"
+Servo Min Roll = "0"
+Servo Min Yaw = "0"
+Servo Max Pitch = "0"
+Servo Max Roll = "0"
+Servo Max Yaw = "0"
